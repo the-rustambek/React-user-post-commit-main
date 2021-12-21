@@ -7,9 +7,7 @@ function UnauthenticatedApp() {
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
-
     const { email, password } = evt.target.elements;
-
     fetch("https://reqres.in/api/login", {
       method: "POST",
       headers: {
