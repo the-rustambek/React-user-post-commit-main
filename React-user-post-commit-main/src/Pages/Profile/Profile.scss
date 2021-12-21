@@ -1,0 +1,33 @@
+.profile_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.post-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.post_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.post_id {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
